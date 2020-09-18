@@ -7,7 +7,8 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "clean": "gatsby clean",
-    "proxy": "netlify-cms-proxy-server"
+    "proxy": "netlify-cms-proxy-server",
+    "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.18.0",
