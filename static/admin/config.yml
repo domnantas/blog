@@ -1,5 +1,6 @@
 backend: # Set up your backend
   name: github
+  repo: domnantas/blog
 
 local_backend: true # Optional if you want to use the local proxy mode
 
@@ -33,8 +34,6 @@ collections:
     identifier_field: "name"
     media_folder: "avatars"
     public_folder: "./avatars"
-    editor:
-      preview: false
     fields:
       - { label: Name, name: name, widget: string }
       - { label: Bio, name: bio, widget: string }
