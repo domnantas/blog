@@ -11,9 +11,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: document
-  path: authors
-  label: Authors
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
