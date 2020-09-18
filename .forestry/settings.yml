@@ -3,7 +3,18 @@ new_page_extension: md
 auto_deploy: false
 admin_path: static/forestry
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: posts
+  label: Posts
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: document
+  path: authors
+  label: Authors
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
