@@ -27,11 +27,11 @@ It is recommended to NOT use H1s as it is reserved for the article heading. Any 
 
 ## Emphasis
 
-Emphasis, aka italics, with *asterisks* or *underscores*.
+Emphasis, aka italics, with _asterisks_ or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
-Combined emphasis with **asterisks and *underscores***.
+Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
@@ -60,7 +60,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 Or leave it empty and use the [link text itself](http://www.reddit.com).
 
 URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
+http://www.example.com or [http://www.example.com](http://www.example.com) and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -68,11 +68,11 @@ Some text to show that the reference links can follow later.
 ## Images
 
 <div className="Image__Small">
-  <img
-    src="./images/article-image-2.jpg"
-    title="Logo Title Text 1"
-    alt="Alt text"
-  />
+<img
+src="./images/article-image-2.jpg"
+title="Logo Title Text 1"
+alt="Alt text"
+/>
 </div>
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -84,10 +84,8 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+    No language indicated, so no syntax highlighting.
+    But let's throw in a <b>tag</b>.
 
 ### JSX
 
@@ -116,18 +114,18 @@ Horizontal Rule
 
 Three or more...
 
-- - -
+***
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
-- - -
+***
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
 ## Tables
 
-| Tables   | Are           | Cool  |
-| -------- | ------------- | ----- |
-| col 1 is | left-aligned  | $1600 |
-| col 2 is | centered      | $12   |
-| col 3 is | right-aligned | $1    |
+| Tables | Are | Cool |
+| --- | --- | --- |
+| col 1 is | left-aligned | $1600 |
+| col 2 is | centered | $12 |
+| col 3 is | right-aligned | $1 |
